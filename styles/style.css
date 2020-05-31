@@ -1,0 +1,128 @@
+nav{
+	padding-top: 5px;
+}
+.navbar{
+	list-style-type: none;
+	padding-left: 10px;
+	margin: 0;
+}
+.navbar li a{
+
+	font-size: 0.8em;
+	color: black;
+	text-decoration-line: none;
+
+}
+
+.navbar li a:hover{
+	text-decoration-line: underline;
+}
+
+.navbar li{
+	float: left;
+	padding: 7px
+}
+.navright{
+	float: right;
+	padding-right: 20px;
+}
+
+.logo{
+	padding-top: 150px;
+	text-align: center;
+}
+
+.logo img{
+	display: inline-block;
+}
+
+.search{
+text-align: center;
+padding-top: 20px;
+
+}
+
+.search input{
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 70px;
+	border: 1px lightgrey solid;
+	width: 500px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#sign{
+	border-radius: 4px;
+	background: #003cb3;
+	padding: 5px 7px;
+
+}
+
+#sign a{
+	color: white;
+}
+
+#sign a:hover{
+	text-decoration-line: none;
+}
+
+.buttons{
+	padding: 5px 8px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 20px;
+
+}
+
+.buttons button{
+	display: inline-block;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+.bottom{
+	list-style-type: none;
+	padding-bottom: 20px;
+	padding-right: 50px;
+
+}
+
+.bottom li{
+		float: left;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: lightgrey;
+	border-top: solid darkgrey 1px;
+
+}
+
+.bottomright{
+	text-align: right;
+	float: right;
+}
+
+.bottom li a{
+	font-size: 0.8em;
+	color: grey;
+	text-decoration-line: none;
+	padding: 7px;
+}
+
+.bottom li a:hover{
+	text-decoration: underline;
+}
+
+footer p{
+	font-size: 0.9em;
+	color: grey;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	border-bottom: solid darkgrey 1px;
+}
