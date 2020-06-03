@@ -2,18 +2,22 @@
 <html>
   <head>
     <title>Google</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="icon" href="pictures/goggle.png" />
+    <link rel="stylesheet" type="text/css" href="styles/styleout.css" />
   </head>
   <body>
     <nav>
       <ul class="navbar">
-        <li><a href="">About</a></li>
-        <li><a href="">Store</a></li>
-        <div class="navright">
-          <li><a href="">Gmail</a></li>
-          <li><a href="">Images</a></li>
-          <li id="sign"><a href="">Sign In</a></li>
-        </div>
+        <class class="navright">
+          <li>
+            <a href="https://accounts.google.com/b/0/AddMailService">Почта</a>
+          </li>
+          <li>
+            <a href="https://www.google.by/imghp?hl=ru&tab=wi&ogbl">Картинки</a>
+          </li>
+          <li><img src="pictures/menu.png" alt="Menu" id="iconemenu" /></li>
+          <li id="sign"><a href="">Вход</a></li>
+        </class>
       </ul>
     </nav>
 
@@ -23,28 +27,69 @@
       />
     </div>
 
-    <form>
-      <div class="search">
-        <input type="text" name="search" />
-      </div>
+    <div id="recherchegoogle">
 
-      <div class="buttons">
-        <button>Google Search</button>
+      <div id="recherche">
 
-        <button>I'm Feeling Lucky</button>
+        <form id="champrecherche">
+          <img src="pictures/search.png" alt="" />
+          <input type="search" id="barrerecherche" />
+          <img src="pictures/keybord.png"   alt="Экранная клавиатура" />
+          <img src="pictures/micro.png"  alt="Голосовой поиск" />
+        </form>
+
+        <div class="buttons">
+          <button type="submit">Поиск в Google</button>
+          <button typ="submit">Мне повезёт!</button>
+        </div>
       </div>
-    </form>
+    </div>
+
+      <div class="texts">
+        <a href="" class="left_text">Сервисы Google доступны на разных языках:</a>
+        <a href="https://www.google.ru/" class="right_text">Беларуская</a>
+      </div>
+    </div>
+
+
+
 
     <footer>
-      <p>United Kingdom</p>
+      <p>Беларусь</p>
       <ul class="bottom">
-        <li><a href="">Advertising</a></li>
-        <li><a href="">Business</a></li>
-        <li><a href="">How Search Works</a></li>
+        <li>
+          <a
+            href="https://ads.google.com/intl/ru_by/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            >Реклама</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none"
+            >Для бизнеса</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://about.google/?utm_source=google-BY&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+            >Все о Google</a
+          >
+        </li>
+        <li>
+          <a href="https://www.google.com/search/howsearchworks/?fg=1"
+            >Как работает Google Поиск</a
+          >
+        </li>
         <div class="bottomright">
-          <li><a href="">Privacy</a></li>
-          <li><a href="">Terms</a></li>
-          <li><a href="">Settings</a></li>
+          <li>
+            <a href="https://policies.google.com/privacy?fg=1"
+              >Конфиденциальность</a
+            >
+          </li>
+          <li><a href="https://policies.google.com/terms?fg=1">Условия</a></li>
+          <li>
+            <a href="https://www.google.com/preferences?hl=ru">Настройки</a>
+          </li>
         </div>
       </ul>
     </footer>

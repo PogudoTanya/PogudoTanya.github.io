@@ -1,128 +1,196 @@
-nav{
-	padding-top: 5px;
-}
-.navbar{
-	list-style-type: none;
-	padding-left: 10px;
-	margin: 0;
-}
-.navbar li a{
+/*---------------------HEADER-----------------------*/
 
-	font-size: 0.8em;
-	color: black;
-	text-decoration-line: none;
 
+nav {
+  padding-top: 5px;
 }
 
-.navbar li a:hover{
-	text-decoration-line: underline;
+.navbar {
+  list-style-type: none;
+  padding-left: 10px;
+  margin: 0;
+  li {
+    a {
+      font-size: 0.8em;
+      color: black;
+      text-decoration-line: none;
+    }
+  }
+  li a:hover{
+    text-decoration: underline;
+  }
+
+  li {
+    float: left;
+    padding: 7px;
+  }
 }
 
-.navbar li{
-	float: left;
-	padding: 7px
-}
-.navright{
-	float: right;
-	padding-right: 20px;
+#iconemenu {
+  height: 18px;
 }
 
-.logo{
-	padding-top: 150px;
-	text-align: center;
+.navright {
+  float: right;
+  padding-right: 20px;
 }
 
-.logo img{
-	display: inline-block;
+#sign {
+  border-radius: 4px;
+  background: #003cb3;
+  padding: 5px 7px;
+  a {
+    color: white;
+  }
 }
 
-.search{
-text-align: center;
-padding-top: 20px;
 
+/*---------------------BODY-----------------------*/
+
+
+.logo {
+  padding-top: 150px;
+  text-align: center;
+
+  img {
+    display: inline-block;
+  }
 }
 
-.search input{
-	display: inline-block;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	border-radius: 70px;
-	border: 1px lightgrey solid;
-	width: 500px;
-	padding-left: 10px;
-	padding-right: 10px;
+
+
+
+#recherchegoogle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }
 
-#sign{
-	border-radius: 4px;
-	background: #003cb3;
-	padding: 5px 7px;
 
+form#champrecherche {
+  height: 48px;
+  width: 582px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#sign a{
-	color: white;
+#champrecherche {
+  img {
+    height: 25px;
+    margin: 7px 9px;
+  }
+
+  input {
+    height: 48px;
+    width: 500px;
+    border: none;
+    font-size: 18px;
+  }
+
+  input:focus {
+    outline: none;
+  }
 }
 
-#sign a:hover{
-	text-decoration-line: none;
+
+.buttons {
+  padding: 5px 8px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+
+  button {
+    display: inline-block;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration-line: none;
+  }
 }
 
-.buttons{
-	padding: 5px 8px;
-	text-align: center;
-	margin: 0 auto;
-	padding-top: 20px;
+.bottom {
+  list-style-type: none;
+  padding-bottom: 5px;
+  margin-top: -0.2em;
+  padding-right: 50px;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
 
+  li {
+    float: left;
+  }
+
+  li {
+	  a{
+		font-size: 0.8em;
+		color: grey;
+		text-decoration-line: none;
+		padding: 7px;
+	  }
+  }
 }
 
-.buttons button{
-	display: inline-block;
-	padding: 10px 10px;
-	border: none;
-	border-radius: 5px;
+
+.texts {
+  padding: 5px 8px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 25px;
+  
+  .left_text{
+		font-size: 0.9em;
+		color: black;
+		text-decoration-line: none;
+		padding: 3px;
+    }
+  .right_text{
+    font-size: 0.9em;
+		color: blue;
+		text-decoration-line: none ;
+    padding: 3px;
+  }
 }
 
-.bottom{
-	list-style-type: none;
-	padding-bottom: 20px;
-	padding-right: 50px;
+.right_text:hover {
+  text-decoration: underline; 
+ }
 
-}
+/*---------------------FOOTER----------------------*/
 
-.bottom li{
-		float: left;
-}
 
-footer{
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	background: lightgrey;
-	border-top: solid darkgrey 1px;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(243, 243, 243);
+  border-top: solid rgb(235, 225, 225) 1px;
+  font-size: 1em;
 
-}
-
-.bottomright{
-	text-align: right;
-	float: right;
-}
-
-.bottom li a{
-	font-size: 0.8em;
-	color: grey;
-	text-decoration-line: none;
-	padding: 7px;
-}
-
-.bottom li a:hover{
-	text-decoration: underline;
-}
-
-footer p{
-	font-size: 0.9em;
+  p {
 	color: grey;
 	padding-bottom: 10px;
 	padding-left: 50px;
-	border-bottom: solid darkgrey 1px;
+	border-bottom: solid rgb(235, 225, 225) 1px;
+  }
+
+  li {
+    a{
+      font-size: 1.7em;
+      text-decoration: underline;
+    }
+    }
+
+}
+
+footer li a:hover {
+  text-decoration: underline; 
+ }
+
+.bottomright {
+  text-align: right;
+  float: right;
 }
